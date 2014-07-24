@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Lucida, Helvetica, sans-serif;
+}
+
+.header, .results {
+  width: 100%;
+  text-align: center;
+}
+
