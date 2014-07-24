@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <title></title>
+</head>
+<body ng-app="" ng-init="results = ['hello', 'world', 'these', 'are', 'some', 'results']">
+  <input ng-model="search">
+  <div class="small">Searching for {{ search }}</div>
+  <hr>
+  <div class="results">
+    <div class="result" ng-repeat="result in results">{{ result }}</div>
+  </div>
+</body>
+</html>
